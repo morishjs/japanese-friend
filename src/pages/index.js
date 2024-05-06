@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import Image from 'next/image';
+import { Analytics } from "@vercel/analytics/react"
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -118,6 +118,8 @@ export default function Home() {
                     私たちがガイドします。 一緒に楽しい時間を過ごしましょう。 😄
                 </div>
             </div>
+
+            <Analytics />
 
             <style jsx global>{`
                 .slick-list {

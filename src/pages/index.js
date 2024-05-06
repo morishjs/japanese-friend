@@ -45,6 +45,7 @@ export default function Home() {
                             height="180"
                             // style="aspect-ratio: 240 / 180; object-fit: cover;"
                         />
+
                         <span className="text-xs">박준석 (ジュン)</span>
                     </div>
                     <div className="grid grid-cols-2 gap-4">
